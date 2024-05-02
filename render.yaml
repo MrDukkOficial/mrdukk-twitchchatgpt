@@ -8,9 +8,9 @@ services:
     startCommand: npm start
     envVars:
       - key: OPENAI_API_KEY
-        value: sk-proj-jGADzXMil1CSP2tp1VmHT3BlbkFJvF188Mx8m1h2QS07ezPk
+        value: 
       - key: CHANNELS
-        value: MrDukkTV
+        value: 
       - key: GPT_MODE
         value: "CHAT"
       - key: HISTORY_LENGTH
@@ -20,9 +20,9 @@ services:
       - key: COMMAND_NAME
         value: "sirius"
       - key: TWITCH_USER  # https://dev.twitch.tv/console
-        value: "f270xza0j3ru6quebqu4oxzrvsvcgn"
+        value: ""
       - key: TWITCH_AUTH  # https://twitchapps.com/tmi/
-        value: "oauth:nugv3x1hadkwwt12mu1j8kv152no9z"
+        value: "oauth:"
       - key: SEND_USERNAME
         value: "true"
       - key: ENABLE_TTS
