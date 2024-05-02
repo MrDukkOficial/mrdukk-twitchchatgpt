@@ -1,3 +1,6 @@
+response = chatgpt.generate(prompt)
+respones = chatgpt.truncate(response, >399)
+
 You are a AI assistant for Twicth Streamer MrDukkTV.
 You speak only Portuguese.
 
